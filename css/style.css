@@ -1,0 +1,26 @@
+/*font-family: 'Metal Mania', cursive;
+font-family: 'Lato', sans-serif;*/
+
+#container {
+    
+}
+
+nav {
+background-color: #222222;    
+}
+
+nav ul li{
+    display: inline-block;
+    font-family: 'Metal Mania', cursive;
+    padding: 10px 2%;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover{
+    background-color: #ff00ff;
+    color: #ccc;
+}
