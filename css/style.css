@@ -1,9 +1,6 @@
 /*font-family: 'Metal Mania', cursive;
 font-family: 'Lato', sans-serif;*/
 
-#container {
-    
-}
 
 nav {
 background-color: #222222;    
@@ -24,3 +21,19 @@ nav ul li a:hover{
     background-color: #ff00ff;
     color: #ccc;
 }
+
+.logo {
+    background: url(/images/gorslogoklein.png);
+    background-color: #ff00ff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 200px;
+    height: auto;
+    margin: 0;
+    padding: 10px;
+}
+
+
+
+
