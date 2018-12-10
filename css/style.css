@@ -4,6 +4,10 @@
 
 /*----------------------------------colors*/
 
+body {
+    background-color: #660066;
+}
+
 .menu-color-index {
     background-color: #cc00cc;
 }
@@ -31,7 +35,7 @@ header {
 }
 
 .logo {
-    background: url(/images/gorslogoklein.png);
+    background: url(/images/gorslogoklein2.png);
     background-color: #660066;
     background-position: center;
     background-repeat: no-repeat;
@@ -87,28 +91,25 @@ header {
     letter-spacing: 4px;
 }
 
-/*.bandmembers {
-    display: block;
-}*/
+/*------------------------------------band*/
 
-.bandmember {
-    margin: 10px;
-    padding: 20px;
-    border: 2px;
-    border-color: #bada55;
-    background-color: pink;
-    display: block;
+
+
+/*----------------------------------footer*/
+.facebook{
+    background: url(/images/facebooklogo.png);
+    background-repeat: no-repeat;
+    
 }
 
-h3 {
-    font-family: 'Metal Mania', serif;
-    font-size: 20px;
-    text-align: center;
-}    
-
-
-p {
-        font-family: 'Lato', sans-serif;
-        font-size: 15px;
+.twitter {
+    background: url(/images/twitterlogo.png);
 }
 
+.instagram {
+    background: url(/images/instagram.png);
+}
+
+.e-mail {
+    
+}
