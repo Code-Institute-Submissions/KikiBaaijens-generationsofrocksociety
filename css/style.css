@@ -1,39 +1,114 @@
-/*font-family: 'Metal Mania', cursive;
-font-family: 'Lato', sans-serif;*/
+/*-----------------------------------fonts*/
 
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700|Metal+Mania');
 
-nav {
-background-color: #222222;    
+/*----------------------------------colors*/
+
+.menu-color-index {
+    background-color: #cc00cc;
 }
 
-nav ul li{
-    display: inline-block;
-    font-family: 'Metal Mania', cursive;
-    padding: 10px 2%;
+.menu-color-ontour {
+    background-color: #cc0099;
 }
 
-nav ul li a{
-    text-decoration: none;
-    color: #fff;
+.menu-color-music {
+    background-color: #cc3399;
 }
 
-nav ul li a:hover{
-    background-color: #ff00ff;
-    color: #ccc;
+.menu-color-bookus {
+    background-color: #cc6699;
+}
+
+.fa {
+    color: #000;
+}
+
+/*----------------------------------header*/
+
+header {
+    margin: 0;
 }
 
 .logo {
     background: url(/images/gorslogoklein.png);
-    background-color: #ff00ff;
+    background-color: #660066;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
-    min-height: 200px;
-    height: auto;
-    margin: 0;
-    padding: 10px;
+    background-size: 50%;
+    min-height: 220px;
+    /*height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;*/
 }
 
+/*------------------------------navigation*/
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    padding: 0;
+}
+
+.menuitem {
+    height: 125px;
+    text-align: center;
+    padding: 0;
+    opacity: 0.7;
+    transition: ease-in-out .3s;
+}
+
+.menuitem:hover {
+    opacity: 1;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 7px;
+    text-align: center;
+    font-family: 'Metal Mania', serif;
+    color: #000;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+
+/*.bandmembers {
+    display: block;
+}*/
+
+.bandmember {
+    margin: 10px;
+    padding: 20px;
+    border: 2px;
+    border-color: #bada55;
+    background-color: pink;
+    display: block;
+}
+
+h3 {
+    font-family: 'Metal Mania', serif;
+    font-size: 20px;
+    text-align: center;
+}    
 
 
+p {
+        font-family: 'Lato', sans-serif;
+        font-size: 15px;
+}
 
