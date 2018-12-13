@@ -92,24 +92,25 @@ header {
 }
 
 /*------------------------------------band*/
+.center {
+    margin: 0 auto;
+    width: 80%;
+}
 
+h2 {
+    font-family: 'Metal Mania', serif;
+    font-size: 35px;
+}
 
+p::first-letter {
+    font-size: 300%;;
+    font-family: 'Metal Mania', serif;
+    line-height: 0;
+}
 
 /*----------------------------------footer*/
-.facebook{
-    background: url(/images/facebooklogo.png);
-    background-repeat: no-repeat;
-    
-}
 
-.twitter {
-    background: url(/images/twitterlogo.png);
-}
-
-.instagram {
-    background: url(/images/instagram.png);
-}
-
-.e-mail {
-    
+.social-links li a img {
+    width: 35px;
+    height: 35px;
 }
