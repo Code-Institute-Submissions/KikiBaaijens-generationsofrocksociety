@@ -5,7 +5,7 @@
 /*----------------------------------colors*/
 
 body {
-    background-color: #660066;
+    background-color: #ff99ff;
 }
 
 .menu-color-index {
@@ -92,7 +92,9 @@ header {
 }
 
 /*------------------------------------band*/
+
 .center {
+    text-align: center;
     margin: 0 auto;
     width: 80%;
 }
@@ -102,15 +104,32 @@ h2 {
     font-size: 35px;
 }
 
-p::first-letter {
-    font-size: 300%;;
+h3 {
     font-family: 'Metal Mania', serif;
-    line-height: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.thumbnail {
+    margin: 0 auto;
+    background-color: #660066;
+    border-color: #000;
 }
 
 /*----------------------------------footer*/
 
+footer{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #660066;
+    
+}
 .social-links li a img {
     width: 35px;
     height: 35px;
+}
+
+ul .links {
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
