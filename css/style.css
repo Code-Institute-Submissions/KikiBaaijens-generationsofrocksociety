@@ -13,8 +13,6 @@
  }
 
 
-
-
  /*----------------------------------colors*/
 
  body {
@@ -55,11 +53,7 @@
      background-repeat: no-repeat;
      background-size: 50%;
      min-height: 220px;
-     /*height: auto;
-    padding-top: 40px;
-    /*padding-top: 40px;
-    padding-bottom: 40px;*/
- }
+  }
 
  /*------------------------------navigation*/
 
@@ -211,3 +205,46 @@
      height: 35px;
  }
  
+ /*----------------------------------ontour*/
+ 
+#ontour-table {
+width: 100%;
+display: table;
+table-layout: fixed;
+}
+
+#ontour-caption{
+display: table-caption;
+text-align: center;
+}
+
+#ontour-header{
+display: table-header-group;
+background-color: #ff00bf;
+font-weight: bold;
+font-size: 1em;
+color:#660066;
+}
+
+.ontour-header-cell{
+display: table-cell;
+padding: 5px;
+text-align: justify;
+border-bottom: 2px solid #660066;
+word-wrap: break-word;
+ 
+}
+
+#ontour-table-body{
+display: table-row-group;
+}
+
+.ontour-table-row{
+display: table-row;
+}
+
+.ontour-body-cell{
+display: table-cell;
+padding: 5px;
+word-wrap: break-word;
+}
