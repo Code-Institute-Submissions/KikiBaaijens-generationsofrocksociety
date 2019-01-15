@@ -248,3 +248,24 @@ display: table-cell;
 padding: 5px;
 word-wrap: break-word;
 }
+
+ /*----------------------------------bookus*/
+ 
+ .center-form {
+  padding-top: 10px;
+  padding-bottom: 35px;
+  margin: 0 auto;
+  max-width: 70%;
+ }
+ 
+ .bookform {
+  margin-bottom: 10px;
+ }
+ 
+ button {
+      background-color: #660066;
+    color: #ff00bf;
+ }
+ 
+ 
+ 
