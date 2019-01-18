@@ -61,8 +61,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 Credits
 Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
+The text for the band page was copied from their Facebookpage.
+The photos, songs and video used in this site were obtained from the band.
 Acknowledgements
-I received inspiration for this project from X
+I received inspiration for this project from Black Sabbath, the early years.
