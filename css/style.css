@@ -11,7 +11,12 @@
   height: 100%;
   width: 100%;
  }
+ 
+/* use to make less of a difference in height between pages*/
 
+.same-height {
+ min-height: 550px;
+}
 
  /*----------------------------------colors*/
 
@@ -243,7 +248,7 @@
   display: table-row;
  }
 
- ontour-body-cell {
+ .ontour-body-cell {
   display: table-cell;
   padding: 5px;
   word-wrap: break-word;
@@ -269,4 +274,7 @@
 
  /*-----------------------------------music*/
 
- 
+audio {
+ max-width: 100%;
+}
+
