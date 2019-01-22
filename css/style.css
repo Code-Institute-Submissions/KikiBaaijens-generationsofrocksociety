@@ -12,10 +12,10 @@
   width: 100%;
  }
  
-/* use to make less of a difference in height between pages*/
+/* use to make difference in height between pages lesser*/
 
 .same-height {
- min-height: 650px;
+ min-height: 500px;
 }
 
  /*----------------------------------colors*/
@@ -272,9 +272,15 @@
   color: #ff00bf;
  }
 
+.lower {
+ margin-top: 35px;
+}
  /*-----------------------------------music*/
 
 audio {
  max-width: 100%;
 }
 
+.extra-padding {
+ padding-bottom: 50px;
+}
