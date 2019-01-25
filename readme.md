@@ -81,8 +81,14 @@ Try to submit the form with all inputs valid - no success message appears, as th
 
 The website was tested on Firefox, Chrome and IE. Also, all screen sizes were tried with Chrome DevTools.
 
+See Note below Deployment for the issue regarding video and music.
+
 ## Deployment
 I deployed the project using Git Hub Pages. The link: https://kikibaaijens.github.io/generationsofrocksociety/music.html.
+
+Note: after the first submit, I found that the file paths for the video and music were wrong - due to some delay in the Git Hub push, 
+I tested the wrong version. Next time I will ofcourse check with DevTools and not just test it. Also, version control would be a good idea,
+that way I can look at the number to see if I'm working in the right version.
 
 ## Credits
 
